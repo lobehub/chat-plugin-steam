@@ -2,7 +2,7 @@
   "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [],
   "author": "LobeHub",
-  "createdAt": "2023-09-03",
+  "createdAt": "2024-01-27",
   "homepage": "https://github.com/lobehub/chat-plugin-steam",
   "identifier": "steam",
   "meta": {

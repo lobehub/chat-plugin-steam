@@ -31,12 +31,10 @@
     ],
     "*.{js,jsx}": [
       "prettier --write",
-      "stylelint --fix",
       "eslint --fix"
     ],
     "*.{ts,tsx}": [
       "prettier --parser=typescript --write",
-      "stylelint --fix",
       "eslint --fix"
     ]
   },
@@ -68,7 +66,6 @@
     "remark": "^14",
     "remark-cli": "^11",
     "semantic-release": "^21",
-    "stylelint": "^15",
     "typescript": "^5",
     "vitest": "latest"
   }
