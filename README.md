@@ -34,6 +34,7 @@ Obtain game information and user reviews from Steam
 
 - [🌟 Features](#-features)
 - [🤯 Usage](#-usage)
+- [📦 Plugin Ecosystem](#-plugin-ecosystem)
 - [⌨️ Local Development](#️-local-development)
 - [🤝 Contributing](#-contributing)
 - [🔗 Links](#-links)
@@ -58,6 +59,16 @@ Obtain game information and user reviews from Steam
 </div>
 
 ## 🤯 Usage
+
+This is a function calling plugin for [Lobe Chat](https://github.com/lobehub/lobe-chat), you can install it in plugin setting page.
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+## 📦 Plugin Ecosystem
 
 > \[!IMPORTANT]\
 > See detail on [📘 Template usage](https://chat-plugin-sdk.lobehub.com/guides/template)
