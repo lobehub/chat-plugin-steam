@@ -48,7 +48,7 @@
   "dependencies": {
     "@lobehub/chat-plugin-sdk": "^1",
     "@lobehub/chat-plugins-gateway": "^1",
-    "next": "13.4.7",
+    "next": "13.4.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^18",
