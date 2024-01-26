@@ -1,0 +1,112 @@
+{
+  "info": {
+    "title": "Steam ChatGPT Plugin",
+    "description": "A plugin that get game info from steam.",
+    "version": "v1"
+  },
+  "openapi": "3.0.1",
+  "paths": {
+    "/search/results/?json=1&category1=998": {
+      "get": {
+        "operationId": "searchResults",
+        "summary": "search game by keyword, return a list of game name and cover image",
+        "parameters": [
+          {
+            "name": "term",
+            "in": "query",
+            "description": "search keyword",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/appdetails": {
+      "get": {
+        "operationId": "appDetails",
+        "summary": "get game details by id appids, return a list of game info, like name, description, price, etc.",
+        "parameters": [
+          {
+            "name": "appids",
+            "in": "query",
+            "description": "steam game id, if there is no appids, perform a search first",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "filters",
+            "in": "query",
+            "description": "list of game info to return, enum: type,name,steam_appid,required_age,dlc,detailed_description,about_the_game,supported_languages,detailed_description,supported_languages,header_image,website,pc_requirements,mac_requirements,linux_requirements, e.g. filters=name,platforms,price_overview",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/appreviews/{appids}?cursor=*&json=1&filter=all": {
+      "get": {
+        "operationId": "appReviews",
+        "summary": "get game reviews by id appids, return a list of game reviews",
+        "parameters": [
+          {
+            "name": "appids",
+            "in": "path",
+            "description": "steam game id, if there is no appids, perform a search first",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/featured": {
+      "get": {
+        "operationId": "featuredApps",
+        "summary": "get featured apps, return a list of game info, like name, discount, price, etc.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/featuredcategories": {
+      "get": {
+        "operationId": "featuredCategories",
+        "summary": "get featured categories, return a list of categories, including a list of game info, like name, discount, price, etc.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://store.steampowered.com"
+    }
+  ]
+}

@@ -4,11 +4,11 @@
 
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/puzzle-piece.webp">
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji-anim/1.0.0/files/assets/rocket.webp">
+<img height="120" src="https://github.com/lobehub/chat-plugin-steam/assets/17870709/93cdc682-f7ff-4f2b-bc90-6191a2b6f18">
 
-<h1>Plugin Template<br/><sup>LobeChat Plugin</sup></h1>
+<h1>Steam<br/><sup>LobeChat Plugin</sup></h1>
 
-This is the plugin template for LobeChat plugin development
+Obtain game information and user reviews from Steam
 
 [![][🤯-🧩-lobehub-shield]][🤯-🧩-lobehub-link]
 [![][github-release-shield]][github-release-link]
@@ -37,6 +37,7 @@ This is the plugin template for LobeChat plugin development
 - [⌨️ Local Development](#️-local-development)
 - [🤝 Contributing](#-contributing)
 - [🔗 Links](#-links)
+  - [Credits](#credits)
 
 ####
 
@@ -44,10 +45,11 @@ This is the plugin template for LobeChat plugin development
 
 ## 🌟 Features
 
-- [x] 💨 **Quick start with low learning curve**: This template provides a quick start option, allowing users to get started quickly. Additionally, the template includes detailed documentation to help users understand and use the features easily.
-- [x] 📚 **Beautiful and comprehensive documentation**: The template aims for aesthetics, with carefully designed interfaces and layouts that make the documentation more intuitive, readable, and user-friendly. Moreover, the template offers a wide range of styles and components for users to customize the appearance and functionality of their documentation.
-- [x] 🔄 **Complete workflow, automatic publishing and partner updates**: The template provides a complete workflow, including automatic publishing and automatic partner updates. Users can easily complete the publishing and updating tasks by following the specified steps.
-- [x] 🖱️ **One-click document generation**: The template offers a one-click document generation feature, allowing users to quickly generate complete documentation with simple operations. This saves users a significant amount of time and effort, allowing them to focus on improving the content and quality of their documentation.
+- 🔍 **Game Search**: Search for games by keyword and retrieve a list of game names and cover images.
+- ℹ️ **Game Details**: Get detailed information about games by their Steam IDs, including name, description, price, and more.
+- 🌟 **Game Reviews**: Retrieve game reviews based on the game's Steam ID.
+- 🎮 **Featured Apps**: Get information about featured apps, including name, discount, and price.
+- 🏷️ **Featured Categories**: Obtain a list of featured categories, including a list of game info like name, discount, and price.
 
 <div align="right">
 
@@ -57,10 +59,10 @@ This is the plugin template for LobeChat plugin development
 
 ## 🤯 Usage
 
-> [!IMPORTANT]\
+> \[!IMPORTANT]\
 > See detail on [📘 Template usage](https://chat-plugin-sdk.lobehub.com/guides/template)
 
-> [!Note]\
+> \[!Note]\
 > Plugins provide a means to extend the [Function Calling][fc-link] capabilities of LobeChat. They can be used to introduce new function calls, and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide](https://github.com/lobehub/lobe-chat/wiki/Plugin-Development) in the Wiki.
 >
 > - [@lobehub/lobe-chat-plugins][lobe-chat-plugins]: This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.
@@ -90,8 +92,8 @@ Or clone it for local development:
 [![][bun-shield]][bun-link]
 
 ```bash
-$ git clone https://github.com/lobehub/chat-plugin-template.git
-$ cd chat-plugin-template
+$ git clone https://github.com/lobehub/chat-plugin-steam.git
+$ cd chat-plugin-steam
 $ bun install
 $ bun dev
 ```
@@ -121,6 +123,10 @@ Contributions of all types are more than welcome, if you are interested in contr
 - **[🤖 Lobe Chat](https://github.com/lobehub/lobe-chat)** - An open-source, extensible (Function Calling), high-performance chatbot framework. It supports one-click free deployment of your private ChatGPT/LLM web application.
 - **[🧩 / 🏪 Plugin Index](https://github.com/lobehub/lobe-chat-plugins)** - This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for Function Calling to the user.
 
+### Credits
+
+- **InternalSteamWebAPI** - <https://github.com/Revadike/InternalSteamWebAPI/wiki>
+
 <div align="right">
 
 [![][back-to-top]](#readme-top)
@@ -147,29 +153,29 @@ This project is [MIT](./LICENSE) licensed.
 [chat-plugin-web-crawler]: https://github.com/lobehub/chat-plugin-web-crawler
 [chat-plugins-gateway]: https://github.com/lobehub/chat-plugins-gateway
 [fc-link]: https://sspai.com/post/81986
-[github-action-release-link]: https://github.com/lobehub/chat-plugin-template/actions/workflows/release.yml
-[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-template/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/lobehub/chat-plugin-template/actions/workflows/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-template/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-codespace-link]: https://codespaces.new/lobehub/chat-plugin-template
+[github-action-release-link]: https://github.com/lobehub/chat-plugin-steam/actions/workflows/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-steam/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/lobehub/chat-plugin-steam/actions/workflows/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-steam/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-codespace-link]: https://codespaces.new/lobehub/chat-plugin-steam
 [github-codespace-shield]: https://github.com/codespaces/badge.svg
-[github-contrib-link]: https://github.com/lobehub/chat-plugin-template/graphs/contributors
-[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Fchat-plugin-template
-[github-contributors-link]: https://github.com/lobehub/chat-plugin-template/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/chat-plugin-template?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/lobehub/chat-plugin-template/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/lobehub/chat-plugin-template?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/lobehub/chat-plugin-template/issues
-[github-issues-shield]: https://img.shields.io/github/issues/lobehub/chat-plugin-template?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/lobehub/chat-plugin-template/blob/main/LICENSE
-[github-license-shield]: https://img.shields.io/github/license/lobehub/chat-plugin-template?color=white&labelColor=black&style=flat-square
-[github-release-link]: https://github.com/lobehub/chat-plugin-template/releases
-[github-release-shield]: https://img.shields.io/github/v/release/lobehub/chat-plugin-template?color=369eff&labelColor=black&logo=github&style=flat-square
-[github-releasedate-link]: https://github.com/lobehub/chat-plugin-template/releases
-[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/chat-plugin-template?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/lobehub/chat-plugin-template/network/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/lobehub/chat-plugin-template?color=ffcb47&labelColor=black&style=flat-square
+[github-contrib-link]: https://github.com/lobehub/chat-plugin-steam/graphs/contributors
+[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Fchat-plugin-steam
+[github-contributors-link]: https://github.com/lobehub/chat-plugin-steam/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/chat-plugin-steam?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/lobehub/chat-plugin-steam/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/lobehub/chat-plugin-steam?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/lobehub/chat-plugin-steam/issues
+[github-issues-shield]: https://img.shields.io/github/issues/lobehub/chat-plugin-steam?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/lobehub/chat-plugin-steam/blob/main/LICENSE
+[github-license-shield]: https://img.shields.io/github/license/lobehub/chat-plugin-steam?color=white&labelColor=black&style=flat-square
+[github-release-link]: https://github.com/lobehub/chat-plugin-steam/releases
+[github-release-shield]: https://img.shields.io/github/v/release/lobehub/chat-plugin-steam?color=369eff&labelColor=black&logo=github&style=flat-square
+[github-releasedate-link]: https://github.com/lobehub/chat-plugin-steam/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/chat-plugin-steam?labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/lobehub/chat-plugin-steam/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/lobehub/chat-plugin-steam?color=ffcb47&labelColor=black&style=flat-square
 [lobe-chat-plugins]: https://github.com/lobehub/lobe-chat-plugins
-[pr-welcome-link]: https://github.com/lobehub/chat-plugin-template/pulls
+[pr-welcome-link]: https://github.com/lobehub/chat-plugin-steam/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/%F0%9F%A4%AF%20PR%20WELCOME-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-url]: https://github.com/lobehub

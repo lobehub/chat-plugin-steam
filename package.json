@@ -1,14 +1,10 @@
 {
-  "name": "plugin-identifier",
+  "name": "@lobehub/chat-plugin-steam",
   "version": "1.5.1",
   "private": true,
-  "description": "This is the plugin template for LobeChat plugin development",
-  "homepage": "https://github.com/lobehub/chat-plugin-template",
-  "repository": "https://github.com/lobehub/chat-plugin-template.git",
-  "workspaces": [
-    "docs/*",
-    "./*"
-  ],
+  "description": "Obtain game information and user reviews from Steam",
+  "homepage": "https://github.com/lobehub/chat-plugin-steam",
+  "repository": "https://github.com/lobehub/chat-plugin-steam.git",
   "scripts": {
     "build": "npm run docs:build && next build",
     "ci": "npm run lint && npm run type-check",
