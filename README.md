@@ -62,6 +62,9 @@ Obtain game information and user reviews from Steam
 
 This is a function calling plugin for [Lobe Chat](https://github.com/lobehub/lobe-chat), you can install it in plugin setting page.
 
+![LobeChat_Steam游戏专家_2024-01-27](https://github.com/lobehub/chat-plugin-steam/assets/17870709/3f7aa741-369f-4efd-b44e-2336d972d44c)
+
+
 <div align="right">
 
 [![][back-to-top]](#readme-top)
