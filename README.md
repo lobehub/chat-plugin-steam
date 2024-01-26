@@ -4,7 +4,7 @@
 
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/puzzle-piece.webp">
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://github.com/lobehub/chat-plugin-steam/assets/17870709/93cdc682-f7ff-4f2b-bc90-6191a2b6f18">
+<img height="120" src="https://github.com/lobehub/chat-plugin-steam/assets/17870709/c7eb9a6d-9ff1-4f28-970f-dd4b29f6799a">
 
 <h1>Steam<br/><sup>LobeChat Plugin</sup></h1>
 
