@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/chat-plugin-steam",
-  "version": "1.5.1",
+  "version": "1.0.0",
   "private": true,
   "description": "Obtain game information and user reviews from Steam",
   "homepage": "https://github.com/lobehub/chat-plugin-steam",
