@@ -51,7 +51,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18",
+    "@commitlint/cli": "^19.0.0",
     "@lobehub/lint": "latest",
     "@types/react": "18",
     "@vercel/node": "^2",
